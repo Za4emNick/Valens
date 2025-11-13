@@ -6,10 +6,10 @@
   "herbal": "HERBAL TEAS",
   "cocktails": "COCKTAILS",
   "cold": "COLD DRINKS",
-  "icecream": "ICE CREAMS",
+  "icecream": "ICE CREAM",
   "coffees": "COFFEES",
-  "filter": "FILTER COFFEES",
-  "iced": "ICED COFFEES",
+  "filter": "FILTER COFFEE",
+  "iced": "ICED COFFEE",
   "extras": "EXTRAS",
   "desserts": "DESSERTS",
 
@@ -522,6 +522,7 @@
     }
   }
 }
+
 
 
 
