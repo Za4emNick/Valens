@@ -24,18 +24,23 @@
 //test
     </script>
     <style>
-	body { background:#000; color:#fff; }	
-      .card { background: rgba(255,255,255,.03); border: 1px solid rgba(255,255,255,.08); border-radius: 12px; }
+	body {
+	  background: #000 url('images/2.png') center center / cover;
+	  background-attachment: fixed;
+	  color: #fff;
+	}
+	
+      .card { background: rgba(255,255,255,.00); border: 1px solid rgba(255,255,255,.05); border-radius: 12px; }
       .img {
         aspect-ratio: 4/3;
         object-fit: cover;
         width: 100%;
         border-radius: 12px;
-        filter: brightness(1.15) contrast(1.1) saturate(1.15);
+
         transition: all 0.3s ease;
       }
       .img:hover {
-        filter: brightness(1.25) contrast(1.2) saturate(1.2);
+
         transform: scale(1.02);
       }
       .divider { border-top: 1px dashed rgba(255,255,255,.1); }
@@ -117,6 +122,8 @@
 		  -webkit-backdrop-filter: blur(22px);
 		  background: rgba(0,0,0,0.30);
 		}
+
+
 
 
 
@@ -282,8 +289,8 @@ const CATS = {
 
 const MENU = [ 
         // SICAK
-        { id:"cay", cat:"hot", name:"Çay", price:50, img:"images/cay.webp" },
-        { id:"fincan-cay", cat:"hot", name:"Fincan Çay", price:80, img:"images/fincan-cay.webp" },
+        { id:"cay", cat:"hot", name:"Çay", price:50, img:"images/cay.png" },
+        { id:"fincan-cay", cat:"hot", name:"Fincan Çay", price:80, img:"images/fincan-cay.png" },
         { id:"takeaway-cay", cat:"hot", name:"Take a way Çay", price:80, img:"images/takeaway-cay.webp" },
         { id:"salep", cat:"hot", name:"Salep", price:180, img:"images/salep.webp" },
         { id:"sicak-cikolata", cat:"hot", name:"Sıcak Çikolata", price:180, img:"images/sicak-cikolata.webp" },
@@ -645,17 +652,18 @@ const AMOUR_ENRICH = {
 
 	function header() {
 	  const h = document.createElement("div");
-	  h.className = "sticky top-0 bg-black border-b border-white/10 z-30";
+	  h.className = "sticky top-0 bg-[url('images/valens-bg.jpg')] bg-cover bg-center border-white/0 z-30 backdrop-blur-[2px]";
 	  h.innerHTML = `
-		<div class="max-w-7xl mx-auto h-16 px-4 flex items-center justify-center">
+		<div class="max-w-7xl mx-auto h-20 px-4 flex items-center justify-center">
 		  <img 
 			src="images/logo.png" 
 			alt="VALENS" 
-			class="w-[190px] h-auto brightness-110 drop-shadow-lg"
+			class="w-[260px] h-auto brightness-110 drop-shadow-lg"
 		  >
 		</div>`;
 	  return h;
 	}
+
 
 
 
@@ -675,7 +683,7 @@ const AMOUR_ENRICH = {
 		const btn = document.createElement("button");
 		btn.className = `
 		  w-full text-left px-2 py-2 rounded text-xs sm:text-sm
-		  ${active === key ? "bg-white text-black font-semibold" : "text-white hover:bg-white/10"}
+		  ${active === key ? "bg-white text-black font-semibold" : "text-[#dcdcdc] hover:bg-white/10"}
 		`;
 
 		btn.dataset.cat = key;
