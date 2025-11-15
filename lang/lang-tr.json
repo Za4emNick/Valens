@@ -1,0 +1,560 @@
+{
+
+  "description": "Açıklama",
+  "ingredients": "İçindekiler",
+  "caffeine": "Kafein",
+  "hot": "SICAK İÇECEKLER",
+  "herbal": "BİTKİ ÇAYLARI",
+  "cocktails": "KOKTEYLLER",
+  "cold": "SOĞUK İÇECEKLER",
+  "nargile": "NARGILER",
+  "coffees": "KAHVELER",
+  "filter": "FİLTRE KAHVELER",
+  "iced": "SOĞUK KAHVELER",
+  "extras": "EKSTRALAR",
+  "desserts": "TATLILAR",
+
+
+  "menu": {
+	  "cay": {
+		"name": "Çay",
+		"desc": "Geleneksel ve taze demlenmiş Türk siyah çayı.",
+		"ingredients": ["Siyah çay", "Su"]
+	  },
+	  "fincan-cay": {
+		"name": "Fincan Çay",
+		"desc": "Porselen fincanda servis edilen taze demlenmiş siyah çay.",
+		"ingredients": ["Siyah çay", "Su"]
+	  },
+	  "takeaway-cay": {
+		"name": "Take Away Çay",
+		"desc": "Pratik ve sıcak, tek kullanımlık bardakta servis edilen çay.",
+		"ingredients": ["Siyah çay", "Su"]
+	  },
+	  "salep": {
+		"name": "Salep",
+		"desc": "Süt ve tarçınla hazırlanan geleneksel kış içeceği.",
+		"ingredients": ["Salep", "Süt", "Tarçın", "Şeker"]
+	  },
+	  "sicak-cikolata": {
+		"name": "Sıcak Çikolata",
+		"desc": "Yoğun kakao aromalı sıcak çikolata.",
+		"ingredients": ["Kakao", "Süt", "Şeker"]
+	  },
+	  "beyaz-sicak-cikolata": {
+		"name": "Beyaz Sıcak Çikolata",
+		"desc": "Kremamsı dokuda beyaz çikolatalı sıcak içecek.",
+		"ingredients": ["Beyaz çikolata", "Süt"]
+	  },
+	  "chai-latte": {
+		"name": "Chai Latte",
+		"desc": "Baharat karışımıyla zenginleştirilmiş sütlü çay.",
+		"ingredients": ["Chai baharatı", "Çay", "Süt"]
+	  },
+	  "balli-sut": {
+		"name": "Ballı Süt",
+		"desc": "Doğal bal ile tatlandırılmış hafif sıcak süt.",
+		"ingredients": ["Süt", "Bal"]
+	  },
+
+	  "herbal-0": {
+		"name": "Ihlamur Çayı",
+		"desc": "French press yöntemiyle hazırlanan hafif ve rahatlatıcı ıhlamur.",
+		"ingredients": ["Ihlamur"]
+	  },
+	  "herbal-1": {
+		"name": "Kış Çayı",
+		"desc": "Zencefil, karanfil ve bitki karışımlarıyla hazırlanan sıcak kış çayı.",
+		"ingredients": ["Kış çayı karışımı"]
+	  },
+	  "herbal-2": {
+		"name": "Yeşil Çay",
+		"desc": "Taze aromalı, hafif içimli yeşil çay.",
+		"ingredients": ["Yeşil çay"]
+	  },
+	  "herbal-3": {
+		"name": "Ada Çayı",
+		"desc": "Rahatlatıcı etkili, hafif bitkisel aromalı ada çayı.",
+		"ingredients": ["Ada çayı"]
+	  },
+	  "herbal-4": {
+		"name": "Papatya Çayı",
+		"desc": "Doğal ve yumuşak içimli papatya çayı.",
+		"ingredients": ["Papatya"]
+	  },
+	  "herbal-5": {
+		"name": "Nane Limon",
+		"desc": "Taze nane ve limonla hazırlanan ferahlatıcı bitki çayı.",
+		"ingredients": ["Nane", "Limon"]
+	  },
+
+	  "mojito": {
+		"name": "Mojito",
+		"desc": "Taze nane ve lime ile hazırlanan ferah Karayip tarzı içecek.",
+		"ingredients": ["Lime", "Nane", "Esmer şeker", "Soda", "Buz"]
+	  },
+	  "red-mojito": {
+		"name": "Çilekli Mojito",
+		"desc": "Çilek aromasıyla tatlı ve ferah mojito.",
+		"ingredients": ["Çilek püresi", "Lime", "Nane", "Soda", "Buz"]
+	  },
+	  "appele-mojito": {
+		"name": "Elmalı Mojito",
+		"desc": "Yeşil elma aromasıyla hafif ekşi ve tatlı mojito.",
+		"ingredients": ["Elma şurubu", "Lime", "Nane", "Soda", "Buz"]
+	  },
+	  "x-beach": {
+		"name": "X Beach",
+		"desc": "Egzotik meyve aromalarıyla hazırlanmış ferahlatıcı yaz içeceği.",
+		"ingredients": ["Şeftali şurubu", "Yaban mersini", "Lime", "Soda", "Buz"]
+	  },
+	  "cool-lime": {
+		"name": "Cool Lime",
+		"desc": "Lime bazlı soğuk ve ferah yaz içeceği.",
+		"ingredients": ["Lime", "Nane", "Şeker şurubu", "Soğuk su", "Buz"]
+	  },
+	  "margarita": {
+		"name": "Virgin Margarita",
+		"desc": "Narenciye aromalarıyla hazırlanan alkolsüz margarita.",
+		"ingredients": ["Lime", "Portakal suyu", "Şeker şurubu", "Buz"]
+	  },
+	  "hibiscus": {
+		"name": "Hibiskus",
+		"desc": "Hibiskus demlemesiyle hazırlanan aromatik kırmızı içecek.",
+		"ingredients": ["Hibiskus demlemesi", "Lime", "Şeker şurubu", "Buz"]
+	  },
+
+	  "su": {
+		"name": "Su",
+		"desc": "Doğal içme suyu.",
+		"ingredients": ["Su"]
+	  },
+	  "soda": {
+		"name": "Soda",
+		"desc": "Doğal ve ferahlatıcı maden suyu.",
+		"ingredients": ["Soda"]
+	  },
+	  "sikma-portakal": {
+		"name": "Taze Sıkma Portakal",
+		"desc": "Taze sıkılmış doğal portakal suyu.",
+		"ingredients": ["Portakal"]
+	  },
+	  "frozen": {
+		"name": "Frozen",
+		"desc": "Seçilen meyveyle hazırlanan buzlu püre karışımı.",
+		"ingredients": ["Meyve püresi", "Buz"]
+	  },
+	  "italian-soda": {
+		"name": "İtalyan Soda",
+		"desc": "Aromalı şurupla hazırlanan hafif gazlı içecek.",
+		"ingredients": ["Soda", "Aroma şurubu", "Buz"]
+	  },
+	  "limonata": {
+		"name": "Ev Yapımı Limonata",
+		"desc": "Doğal limonla hazırlanan ferah ev yapımı limonata.",
+		"ingredients": ["Limon", "Şeker", "Su", "Buz"]
+	  },
+	  "aromali-limonata": {
+		"name": "Aromalı Limonata",
+		"desc": "Çilek, nar, nane veya mango aromalı limonata.",
+		"ingredients": ["Limon", "Aroma", "Şeker", "Su", "Buz"]
+	  },
+	  "churchill": {
+		"name": "Churchill",
+		"desc": "Soda, limon ve hafif tuz dokunuşuyla ferahlatıcı içecek.",
+		"ingredients": ["Soda", "Limon", "Tuz", "Buz"]
+	  },
+	  "enerji-icecek": {
+		"name": "Enerji İçeceği",
+		"desc": "Tatlı ve gazlı enerji içeceği.",
+		"ingredients": ["Enerji içeceği"]
+	  },
+	  "mesrubatlar": {
+		"name": "Meşrubatlar",
+		"desc": "Çeşitli soğuk ve gazlı içecekler.",
+		"ingredients": ["Meşrubat karışımı"]
+	  },
+	  "milkshake": {
+		"name": "Milkshake",
+		"desc": "Seçilen aromayla hazırlanan kremamsı milkshake.",
+		"ingredients": ["Süt", "Dondurma", "Aroma şurubu"]
+	  },
+	  "meyveli-soda": {
+		"name": "Meyveli Soda",
+		"desc": "Doğal meyve aromalı ferah soda.",
+		"ingredients": ["Soda", "Meyve aroması"]
+	  },
+
+	  "nargile-1": {
+		"name": "Nane Lime",
+		"desc": "Taze nane ve lime dokunuşuyla ferah bir aroma.",
+		"ingredients": ["Nane", "Lime", "Mentol"]
+	  },
+	  "nargile-2": {
+		"name": "Çilek",
+		"desc": "Tatlı çilek aromasıyla meyvemsi hafif içim.",
+		"ingredients": ["Çilek aroması", "Meyve özü"]
+	  },
+	  "nargile-3": {
+		"name": "Karpuz",
+		"desc": "Tatlı ve serinletici karpuz aromalı nargile.",
+		"ingredients": ["Karpuz aroması", "Meyve notaları"]
+	  },
+	  "nargile-4": {
+		"name": "Mango",
+		"desc": "Egzotik mango tatlılığıyla tropikal yumuşak içim.",
+		"ingredients": ["Mango aroması", "Tropikal esans"]
+	  },
+	  "nargile-5": {
+		"name": "Üzüm",
+		"desc": "Klasik ve pürüzsüz üzüm aromalı nargile.",
+		"ingredients": ["Üzüm aroması", "Tatlı notalar"]
+	  },
+	  "nargile-6": {
+		"name": "Blue Mist",
+		"desc": "Meyvemsi tatlar ve serin mentol uyumu.",
+		"ingredients": ["Blueberry aroması", "Mentol", "Meyve karışımı"]
+	  },
+	  "nargile-7": {
+		"name": "Limon Nane",
+		"desc": "Ferah limon–nane uyumuyla hafif ekşi ve canlı aroma.",
+		"ingredients": ["Limon aroması", "Nane", "Fresh citrus"]
+	  },
+
+	  "espresso": {
+		"name": "Espresso",
+		"desc": "Kısa sürede hazırlanan yoğun aromalı klasik espresso.",
+		"ingredients": ["Espresso"],
+		"caffeine": 63
+	  },
+	  "double-espresso": {
+		"name": "Double Espresso",
+		"desc": "İki shot ile daha güçlü espresso.",
+		"ingredients": ["Çift espresso"],
+		"caffeine": 126
+	  },
+	  "espresso-macchiato": {
+		"name": "Espresso Macchiato",
+		"desc": "Espresso üzerine az miktarda süt köpüğü.",
+		"ingredients": ["Espresso", "Süt köpüğü"],
+		"caffeine": 63
+	  },
+	  "americano": {
+		"name": "Americano",
+		"desc": "Espresso'nun sıcak su ile açılmasıyla hazırlanan hafif kahve.",
+		"ingredients": ["Espresso", "Sıcak su"],
+		"caffeine": 75
+	  },
+	  "latte": {
+		"name": "Latte",
+		"desc": "Yumuşak içimli, sütlü espresso.",
+		"ingredients": ["Espresso", "Süt"],
+		"caffeine": 75
+	  },
+	  "cortado": {
+		"name": "Cortado",
+		"desc": "Espresso ile az süt dengesiyle hazırlanır.",
+		"ingredients": ["Espresso", "Süt"],
+		"caffeine": 75
+	  },
+	  "flat-white": {
+		"name": "Flat White",
+		"desc": "Çift shot espresso ve kadifemsi süt dokusu.",
+		"ingredients": ["Çift espresso", "Süt"],
+		"caffeine": 126
+	  },
+	  "cappuccino": {
+		"name": "Cappuccino",
+		"desc": "Espresso, süt ve yoğun süt köpüğü dengesi.",
+		"ingredients": ["Espresso", "Süt", "Süt köpüğü"],
+		"caffeine": 75
+	  },
+	  "mocha": {
+		"name": "Mocha",
+		"desc": "Çikolata aromalı sütlü espresso.",
+		"ingredients": ["Espresso", "Süt", "Çikolata sosu"],
+		"caffeine": 90
+	  },
+	  "white-mocha": {
+		"name": "White Mocha",
+		"desc": "Beyaz çikolata aromalı kremamsı latte.",
+		"ingredients": ["Espresso", "Süt", "Beyaz çikolata sosu"],
+		"caffeine": 90
+	  },
+	  "caramel-macchiato": {
+		"name": "Caramel Macchiato",
+		"desc": "Karamel aromalı sütlü espresso.",
+		"ingredients": ["Espresso", "Süt", "Karamel sosu"],
+		"caffeine": 80
+	  },
+	  "red-eye": {
+		"name": "Red Eye",
+		"desc": "Filtre kahve üzerine espresso shot eklenerek hazırlanır.",
+		"ingredients": ["Filtre kahve", "Espresso"],
+		"caffeine": 140
+	  },
+	  "latte-macchiato": {
+		"name": "Latte Macchiato",
+		"desc": "Sıcak sütün üzerine espresso eklenerek hazırlanır.",
+		"ingredients": ["Espresso", "Süt", "Süt köpüğü"],
+		"caffeine": 75
+	  },
+	  "findikli-latte": {
+		"name": "Fındıklı Latte",
+		"desc": "Fındık aromalı yumuşak latte.",
+		"ingredients": ["Espresso", "Süt", "Fındık aroması"],
+		"caffeine": 75
+	  },
+	  "salt-caramel": {
+		"name": "Salted Caramel Latte",
+		"desc": "Hafif tuzlu karamelli latte.",
+		"ingredients": ["Espresso", "Süt", "Salt caramel sosu"],
+		"caffeine": 75
+	  },
+	  "yulaf-latte": {
+		"name": "Yulaf Latte",
+		"desc": "Yulaf sütü ile hazırlanan hafif latte.",
+		"ingredients": ["Espresso", "Yulaf sütü"],
+		"caffeine": 75
+	  },
+	  "badem-latte": {
+		"name": "Badem Latte",
+		"desc": "Badem sütü ile hazırlanan hafif latte.",
+		"ingredients": ["Espresso", "Badem sütü"],
+		"caffeine": 75
+	  },
+	  "toffee-nut": {
+		"name": "Toffee Nut Latte",
+		"desc": "Karamel–fındık aromalı latte.",
+		"ingredients": ["Espresso", "Süt", "Toffee nut şurubu"],
+		"caffeine": 75
+	  },
+	  "lotus-latte": {
+		"name": "Lotus Latte",
+		"desc": "Lotus bisküvi aromalı latte.",
+		"ingredients": ["Espresso", "Süt", "Lotus sosu"],
+		"caffeine": 75
+	  },
+	  "speculaas-latte": {
+		"name": "Speculaas Latte",
+		"desc": "Baharatlı bisküvi aromalı latte.",
+		"ingredients": ["Espresso", "Süt", "Speculaas sosu"],
+		"caffeine": 75
+	  },
+	  "turk-kahvesi": {
+		"name": "Türk Kahvesi",
+		"desc": "Geleneksel, yoğun aromalı ve köpüklü Türk kahvesi.",
+		"ingredients": ["Türk kahvesi", "Su"],
+		"caffeine": 60
+	  },
+	  "double-turk": {
+		"name": "Double Türk Kahvesi",
+		"desc": "Daha yoğun aromalı, çift shot Türk kahvesi.",
+		"ingredients": ["Türk kahvesi (duble)", "Su"],
+		"caffeine": 120
+	  },
+	  "dibek": {
+		"name": "Dibek Kahvesi",
+		"desc": "Yumuşak içimli, odunsu aromalara sahip dibek kahvesi.",
+		"ingredients": ["Dibek kahvesi", "Su"],
+		"caffeine": 60
+	  },
+	  "dubl-dibek": {
+		"name": "Double Dibek Kahvesi",
+		"desc": "Çift shot yumuşak içimli dibek kahvesi.",
+		"ingredients": ["Duble dibek kahvesi", "Su"],
+		"caffeine": 120
+	  },
+	  "damla": {
+		"name": "Damla Sakızlı Türk Kahvesi",
+		"desc": "Damla sakızı aromasının eklendiği yumuşak içimli Türk kahvesi.",
+		"ingredients": ["Türk kahvesi", "Damla sakızı", "Su"],
+		"caffeine": 60
+	  },
+
+	  "kenya": {
+		"name": "Kenya",
+		"desc": "Meyvemsi asiditeye sahip parlak filtre kahve.",
+		"ingredients": ["Öğütülmüş kahve", "Su"],
+		"caffeine": 120
+	  },
+	  "colombia": {
+		"name": "Colombia",
+		"desc": "Karamel ve hafif fındık notalarıyla dengeli filtre kahve.",
+		"ingredients": ["Öğütülmüş kahve", "Su"],
+		"caffeine": 115
+	  },
+	  "v60": {
+		"name": "V60",
+		"desc": "Temiz ve parlak aromaya sahip V60 demleme kahvesi.",
+		"ingredients": ["Öğütülmüş kahve", "Su"],
+		"caffeine": 120
+	  },
+	  "chemex": {
+		"name": "Chemex",
+		"desc": "Tatlımsı ve yumuşak aromalı Chemex demleme.",
+		"ingredients": ["Öğütülmüş kahve", "Su"],
+		"caffeine": 120
+	  },
+
+	  "ice-latte": {
+		"name": "Ice Latte",
+		"desc": "Soğuk süt ile hazırlanan hafif latte.",
+		"ingredients": ["Espresso", "Süt", "Buz"],
+		"caffeine": 75
+	  },
+	  "ice-americano": {
+		"name": "Ice Americano",
+		"desc": "Espresso'nun soğuk suyla hazırlanmış ferah versiyonu.",
+		"ingredients": ["Espresso", "Soğuk su", "Buz"],
+		"caffeine": 75
+	  },
+	  "ice-caramel-latte": {
+		"name": "Ice Caramel Latte",
+		"desc": "Karamelli soğuk latte.",
+		"ingredients": ["Espresso", "Süt", "Karamel sosu", "Buz"],
+		"caffeine": 75
+	  },
+	  "ice-mocha": {
+		"name": "Ice Mocha",
+		"desc": "Çikolatalı soğuk latte.",
+		"ingredients": ["Espresso", "Süt", "Çikolata sosu", "Buz"],
+		"caffeine": 90
+	  },
+	  "ice-white-mocha": {
+		"name": "Ice White Mocha",
+		"desc": "Beyaz çikolatalı soğuk latte.",
+		"ingredients": ["Espresso", "Süt", "Beyaz çikolata sosu", "Buz"],
+		"caffeine": 90
+	  },
+	  "ice-yulaf": {
+		"name": "Ice Yulaf Latte",
+		"desc": "Yulaf sütüyle hazırlanan hafif soğuk latte.",
+		"ingredients": ["Espresso", "Yulaf sütü", "Buz"],
+		"caffeine": 75
+	  },
+	  "ice-badem": {
+		"name": "Ice Badem Latte",
+		"desc": "Badem sütünün hafifliğiyle hazırlanan soğuk latte.",
+		"ingredients": ["Espresso", "Badem sütü", "Buz"],
+		"caffeine": 75
+	  },
+	  "frappe": {
+		"name": "Frappe",
+		"desc": "Klasik köpüklü soğuk frappe.",
+		"ingredients": ["Nescafe", "Süt", "Şeker", "Buz"],
+		"caffeine": 60
+	  },
+	  "frappe-cikolata": {
+		"name": "Çikolatalı Frappe",
+		"desc": "Çikolata aromalı ferah frappe.",
+		"ingredients": ["Nescafe", "Süt", "Çikolata sosu", "Buz"],
+		"caffeine": 60
+	  },
+	  "frappe-cilek": {
+		"name": "Çilekli Frappe",
+		"desc": "Çilek aromalı köpüklü frappe.",
+		"ingredients": ["Nescafe", "Süt", "Çilek şurubu", "Buz"],
+		"caffeine": 60
+	  },
+	  "frappe-caramel": {
+		"name": "Karamelli Frappe",
+		"desc": "Karamel aromalı soğuk frappe.",
+		"ingredients": ["Nescafe", "Süt", "Karamel sosu", "Buz"],
+		"caffeine": 60
+	  },
+	  "ice-chai": {
+		"name": "Ice Chai Latte",
+		"desc": "Baharatlı chai karışımıyla hazırlanan soğuk sütlü içecek.",
+		"ingredients": ["Chai karışımı", "Süt", "Buz"],
+		"caffeine": 50
+	  },
+	  "ice-toffee-nut": {
+		"name": "Ice Toffee Nut Latte",
+		"desc": "Karamel–fındık aromalı soğuk latte.",
+		"ingredients": ["Espresso", "Süt", "Toffee nut şurubu", "Buz"],
+		"caffeine": 75
+	  },
+	  "ice-lotus": {
+		"name": "Ice Lotus Latte",
+		"desc": "Lotus bisküvi aromasıyla hazırlanan soğuk latte.",
+		"ingredients": ["Espresso", "Süt", "Lotus sosu", "Buz"],
+		"caffeine": 75
+	  },
+	  "ice-speculaas": {
+		"name": "Ice Speculaas Latte",
+		"desc": "Baharatlı speculaas aromalı soğuk latte.",
+		"ingredients": ["Espresso", "Süt", "Speculaas sosu", "Buz"],
+		"caffeine": 75
+	  },
+
+	  "extra-shot": {
+		"name": "Extra Espresso Shot",
+		"desc": "Bir shot espresso eklenir.",
+		"ingredients": ["Espresso"]
+	  },
+	  "extra-cikolata": {
+		"name": "Extra Çikolata",
+		"desc": "Tatlı çikolata dokunuşu eklenir.",
+		"ingredients": ["Çikolata sosu"]
+	  },
+	  "extra-milk": {
+		"name": "Extra Süt",
+		"desc": "İlave süt eklenir.",
+		"ingredients": ["Süt"]
+	  },
+
+	  "magnolia": {
+		"name": "Magnolia",
+		"desc": "İpeksi kıvamlı, meyve veya bisküvi katmanlı hafif tatlı.",
+		"ingredients": ["Süt", "Krema", "Meyve veya bisküvi"]
+	  },
+	  "waffle": {
+		"name": "Waffle",
+		"desc": "Taze meyveli ve çikolatalı çıtır waffle.",
+		"ingredients": ["Waffle hamuru", "Meyve", "Çikolata sosu"]
+	  },
+	  "san-sebastian": {
+		"name": "San Sebastian",
+		"desc": "Karamelizeli üst katmana sahip yoğun dokulu cheesecake.",
+		"ingredients": ["Krem peynir", "Yumurta", "Şeker"]
+	  },
+	  "tramisu": {
+		"name": "Tiramisu",
+		"desc": "Kahveyle ıslatılmış kedi dili ve kremalı klasik tiramisu.",
+		"ingredients": ["Krema", "Kedi dili", "Kahve"]
+	  },
+	  "pera": {
+		"name": "Pera Tatlısı",
+		"desc": "Yumuşak dokulu sütlü hafif tatlı.",
+		"ingredients": ["Süt", "Krema", "Bisküvi"]
+	  },
+	  "lotus-bomba": {
+		"name": "Lotus Bomba",
+		"desc": "Yoğun Lotus aromalı kremalı tatlı.",
+		"ingredients": ["Lotus kreması", "Krema", "Bisküvi"]
+	  },
+	  "fistikli": {
+		"name": "Fıstıklı Tatlı",
+		"desc": "Fıstık aromalı kremalı tatlı.",
+		"ingredients": ["Fıstık", "Krema", "Bisküvi"]
+	  },
+	  "lotus-muhallebisi": {
+		"name": "Lotus Muhallebisi",
+		"desc": "Sütlü muhallebi ile Lotus aromasının birleşimi.",
+		"ingredients": ["Süt", "Krema", "Lotus"]
+	  },
+	  "cerez": {
+		"name": "Karışık Çerez",
+		"desc": "Çeşitli karışık kuru yemiş tabağı.",
+		"ingredients": ["Fındık", "Fıstık", "Badem", "Kaju"]
+	  },
+	  "dubai-cup": {
+		"name": "Dubai Cup",
+		"desc": "Kremalı ve bisküvili özel bardak tatlı.",
+		"ingredients": ["Krema", "Bisküvi", "Aroma"]
+	  }
+	}
+
+  
+}
