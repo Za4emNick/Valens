@@ -6,7 +6,7 @@
   "herbal": "THÉS AUX HERBES",
   "cocktails": "COCKTAILS",
   "cold": "BOISSONS FROIDES",
-  "nargile": "NARGILE"
+  "nargile": "NARGILE",
   "coffees": "CAFÉS",
   "filter": "CAFÉS FILTRÉS",
   "iced": "CAFÉS GLACÉS",
@@ -552,6 +552,7 @@
 		  }
 		}
 	}
+
 
 
 
