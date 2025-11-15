@@ -1,0 +1,560 @@
+{
+  "description": "Description",
+  "ingredients": "Ingrédients",
+  "caffeine": "Caféine",
+  "hot": "BOISSONS CHAUDES",
+  "herbal": "THÉS AUX HERBES",
+  "cocktails": "COCKTAILS",
+  "cold": "BOISSONS FROIDES",
+  "nargile": "NARGILE"
+  "coffees": "CAFÉS",
+  "filter": "CAFÉS FILTRÉS",
+  "iced": "CAFÉS GLACÉS",
+  "extras": "SUPPLÉMENTS",
+  "desserts": "DESSERTS",
+
+  "menu": {
+	  "cay": {
+		"name": "Thé",
+		"desc": "Thé noir turc traditionnel, infusé fraîchement.",
+		"ingredients": ["Thé noir", "Eau"]
+	  },
+	  "fincan-cay": {
+		"name": "Thé en tasse",
+		"desc": "Thé noir turc servi dans une tasse en porcelaine.",
+		"ingredients": ["Thé noir", "Eau"]
+	  },
+	  "takeaway-cay": {
+		"name": "Thé à emporter",
+		"desc": "Thé noir chaud servi dans un gobelet à emporter.",
+		"ingredients": ["Thé noir", "Eau"]
+	  },
+	  "salep": {
+		"name": "Salep",
+		"desc": "Boisson hivernale traditionnelle à base de lait et de cannelle.",
+		"ingredients": ["Salep", "Lait", "Cannelle", "Sucre"]
+	  },
+	  "sicak-cikolata": {
+		"name": "Chocolat chaud",
+		"desc": "Chocolat chaud riche au goût profond de cacao.",
+		"ingredients": ["Cacao", "Lait", "Sucre"]
+	  },
+	  "beyaz-sicak-cikolata": {
+		"name": "Chocolat blanc chaud",
+		"desc": "Boisson douce et crémeuse au chocolat blanc.",
+		"ingredients": ["Chocolat blanc", "Lait"]
+	  },
+	  "chai-latte": {
+		"name": "Chai Latte",
+		"desc": "Thé au lait infusé d’un mélange d’épices.",
+		"ingredients": ["Épices chai", "Thé", "Lait"]
+	  },
+	  "balli-sut": {
+		"name": "Lait au miel",
+		"desc": "Lait chaud légèrement sucré au miel naturel.",
+		"ingredients": ["Lait", "Miel"]
+	  },
+
+	  "herbal-0": {
+		"name": "Tilleul",
+		"desc": "Infusion douce et apaisante de tilleul, préparée en French press.",
+		"ingredients": ["Tilleul"]
+	  },
+	  "herbal-1": {
+		"name": "Thé d’hiver",
+		"desc": "Mélange chaud d’herbes et d’épices comme le gingembre et le clou de girofle.",
+		"ingredients": ["Mélange d’herbes d’hiver"]
+	  },
+	  "herbal-2": {
+		"name": "Thé vert",
+		"desc": "Thé vert frais et léger à l’arôme délicat.",
+		"ingredients": ["Thé vert"]
+	  },
+	  "herbal-3": {
+		"name": "Sauge",
+		"desc": "Infusion apaisante aux notes douces de sauge.",
+		"ingredients": ["Sauge"]
+	  },
+	  "herbal-4": {
+		"name": "Camomille",
+		"desc": "Infusion naturelle de camomille, légère et relaxante.",
+		"ingredients": ["Camomille"]
+	  },
+	  "herbal-5": {
+		"name": "Menthe citron",
+		"desc": "Infusion fraîche à la menthe et au citron.",
+		"ingredients": ["Menthe", "Citron"]
+	  },
+
+	  "mojito": {
+		"name": "Mojito",
+		"desc": "Boisson rafraîchissante au citron vert et à la menthe, style caribéen.",
+		"ingredients": ["Citron vert", "Menthe", "Sucre brun", "Soda", "Glace"]
+	  },
+	  "red-mojito": {
+		"name": "Mojito à la fraise",
+		"desc": "Mojito doux et frais au goût de fraise.",
+		"ingredients": ["Purée de fraise", "Citron vert", "Menthe", "Soda", "Glace"]
+	  },
+	  "appele-mojito": {
+		"name": "Mojito à la pomme",
+		"desc": "Interprétation légère et fruitée du mojito, à la pomme verte.",
+		"ingredients": ["Sirop de pomme verte", "Citron vert", "Menthe", "Soda", "Glace"]
+	  },
+	  "x-beach": {
+		"name": "X Beach",
+		"desc": "Cocktail estival rafraîchissant aux arômes de fruits exotiques.",
+		"ingredients": ["Sirop de pêche", "Myrtille", "Citron vert", "Soda", "Glace"]
+	  },
+	  "cool-lime": {
+		"name": "Cool Lime",
+		"desc": "Boisson estivale rafraîchissante à base de citron vert.",
+		"ingredients": ["Citron vert", "Menthe", "Sirop de sucre", "Eau froide", "Glace"]
+	  },
+	  "margarita": {
+		"name": "Margarita (sans alcool)",
+		"desc": "Version sans alcool du classique margarita aux agrumes.",
+		"ingredients": ["Citron vert", "Jus d’orange", "Sirop de sucre", "Glace"]
+	  },
+	  "hibiscus": {
+		"name": "Hibiscus",
+		"desc": "Boisson rouge aromatique préparée à base d’infusion d’hibiscus.",
+		"ingredients": ["Infusion d’hibiscus", "Citron vert", "Sirop de sucre", "Glace"]
+	  },
+
+	  "su": {
+		"name": "Eau",
+		"desc": "Eau potable pure et rafraîchissante.",
+		"ingredients": ["Eau"]
+	  },
+	  "soda": {
+		"name": "Soda",
+		"desc": "Eau minérale gazeuse rafraîchissante.",
+		"ingredients": ["Eau gazeuse"]
+	  },
+	  "sikma-portakal": {
+		"name": "Jus d’orange frais",
+		"desc": "Jus d’orange naturel pressé à froid.",
+		"ingredients": ["Orange"]
+	  },
+	  "frozen": {
+		"name": "Frozen",
+		"desc": "Smoothie glacé préparé avec la saveur de votre choix.",
+		"ingredients": ["Purée de fruits", "Glace"]
+	  },
+	  "italian-soda": {
+		"name": "Soda italien",
+		"desc": "Boisson gazeuse légère aromatisée au sirop.",
+		"ingredients": ["Soda", "Sirop aromatisé", "Glace"]
+	  },
+	  "limonata": {
+		"name": "Limonade maison",
+		"desc": "Limonade fraîche au goût naturel et citronné.",
+		"ingredients": ["Citron", "Sucre", "Eau", "Glace"]
+	  },
+	  "aromali-limonata": {
+		"name": "Limonade aromatisée",
+		"desc": "Limonade aux arômes de fraise, grenade, menthe ou mangue.",
+		"ingredients": ["Citron", "Arôme", "Sucre", "Eau", "Glace"]
+	  },
+	  "churchill": {
+		"name": "Churchill",
+		"desc": "Classique turc : mélange de soda, citron et une pointe de sel.",
+		"ingredients": ["Soda", "Citron", "Sel", "Glace"]
+	  },
+	  "enerji-icecek": {
+		"name": "Boisson énergisante",
+		"desc": "Boisson énergisante gazeuse et sucrée.",
+		"ingredients": ["Boisson énergisante"]
+	  },
+	  "mesrubatlar": {
+		"name": "Boissons gazeuses",
+		"desc": "Sélection de boissons froides et gazeuses.",
+		"ingredients": ["Sélection de sodas"]
+	  },
+	  "milkshake": {
+		"name": "Milkshake",
+		"desc": "Milkshake onctueux à la saveur de votre choix.",
+		"ingredients": ["Lait", "Glace", "Sirop"]
+	  },
+	  "meyveli-soda": {
+		"name": "Soda aux fruits",
+		"desc": "Eau gazeuse aromatisée aux fruits naturels.",
+		"ingredients": ["Soda", "Arôme de fruits"]
+	  },
+	  "nargile-1": {
+		"name": "Menthe Citron vert",
+		"desc": "Mélange rafraîchissant de menthe et de citron vert au goût vivifiant.",
+		"ingredients": ["Menthe", "Citron vert", "Menthol"]
+	  },
+	  "nargile-2": {
+		"name": "Fraise",
+		"desc": "Saveur sucrée de fraise avec une touche fruitée délicate.",
+		"ingredients": ["Arôme de fraise", "Essence de fruits"]
+	  },
+	  "nargile-3": {
+		"name": "Pastèque",
+		"desc": "Saveur de pastèque douce et rafraîchissante.",
+		"ingredients": ["Arôme de pastèque", "Notes fruitées"]
+	  },
+	  "nargile-4": {
+		"name": "Mangue",
+		"desc": "Arôme tropical de mangue au goût doux et riche.",
+		"ingredients": ["Arôme de mangue", "Essence tropicale"]
+	  },
+	  "nargile-5": {
+		"name": "Raisin",
+		"desc": "Goût classique du raisin, doux et agréable.",
+		"ingredients": ["Arôme de raisin", "Notes sucrées"]
+	  },
+	  "nargile-6": {
+		"name": "Blue Mist",
+		"desc": "Mélange de baies avec une note mentholée rafraîchissante.",
+		"ingredients": ["Arôme de myrtille", "Menthol", "Mélange de fruits"]
+	  },
+	  "nargile-7": {
+		"name": "Citron Menthe",
+		"desc": "Association vivifiante de citron et de menthe avec une légère acidité.",
+		"ingredients": ["Arôme citron", "Menthe", "Agrumes"]
+	  },
+
+	  "espresso": {
+		"name": "Espresso",
+		"desc": "Espresso classique, intense et riche en arôme.",
+		"ingredients": ["Espresso"],
+		"caffeine": 63
+	  },
+	  "double-espresso": {
+		"name": "Double espresso",
+		"desc": "Double dose d’espresso pour un goût plus fort.",
+		"ingredients": ["Double espresso"],
+		"caffeine": 126
+	  },
+	  "espresso-macchiato": {
+		"name": "Espresso macchiato",
+		"desc": "Espresso surmonté d’une fine touche de mousse de lait.",
+		"ingredients": ["Espresso", "Mousse de lait"],
+		"caffeine": 63
+	  },
+	  "americano": {
+		"name": "Americano",
+		"desc": "Espresso allongé avec de l’eau chaude.",
+		"ingredients": ["Espresso", "Eau chaude"],
+		"caffeine": 75
+	  },
+	  "latte": {
+		"name": "Latte",
+		"desc": "Espresso doux mélangé à du lait chaud.",
+		"ingredients": ["Espresso", "Lait"],
+		"caffeine": 75
+	  },
+	  "cortado": {
+		"name": "Cortado",
+		"desc": "Espresso équilibré avec une petite quantité de lait.",
+		"ingredients": ["Espresso", "Lait"],
+		"caffeine": 75
+	  },
+	  "flat-white": {
+		"name": "Flat White",
+		"desc": "Double espresso avec du lait légèrement texturé.",
+		"ingredients": ["Double espresso", "Lait"],
+		"caffeine": 126
+	  },
+	  "cappuccino": {
+		"name": "Cappuccino",
+		"desc": "Espresso avec lait chaud et mousse onctueuse.",
+		"ingredients": ["Espresso", "Lait", "Mousse de lait"],
+		"caffeine": 75
+	  },
+	  "mocha": {
+		"name": "Mocha",
+		"desc": "Latte au chocolat agrémenté d’un espresso riche.",
+		"ingredients": ["Espresso", "Lait", "Sauce chocolat"],
+		"caffeine": 90
+	  },
+	  "white-mocha": {
+		"name": "White Mocha",
+		"desc": "Mocha doux et crémeux au chocolat blanc.",
+		"ingredients": ["Espresso", "Lait", "Chocolat blanc"],
+		"caffeine": 90
+	  },
+	  "caramel-macchiato": {
+		"name": "Caramel Macchiato",
+		"desc": "Boisson lactée à l’espresso avec une touche de caramel.",
+		"ingredients": ["Espresso", "Lait", "Caramel"],
+		"caffeine": 80
+	  },
+	  "red-eye": {
+		"name": "Red Eye",
+		"desc": "Café filtre rehaussé d’un shot d’espresso.",
+		"ingredients": ["Café filtre", "Espresso"],
+		"caffeine": 140
+	  },
+	  "latte-macchiato": {
+		"name": "Latte macchiato",
+		"desc": "Boisson en couches : lait au fond, espresso au-dessus.",
+		"ingredients": ["Espresso", "Lait", "Mousse de lait"],
+		"caffeine": 75
+	  },
+	  "findikli-latte": {
+		"name": "Latte noisette",
+		"desc": "Latte onctueux à l’arôme de noisette.",
+		"ingredients": ["Espresso", "Lait", "Arôme noisette"],
+		"caffeine": 75
+	  },
+	  "salt-caramel": {
+		"name": "Latte caramel salé",
+		"desc": "Latte doux au goût de caramel salé.",
+		"ingredients": ["Espresso", "Lait", "Caramel salé"],
+		"caffeine": 75
+	  },
+	  "yulaf-latte": {
+		"name": "Latte au lait d’avoine",
+		"desc": "Latte préparé avec du lait d’avoine.",
+		"ingredients": ["Espresso", "Lait d’avoine"],
+		"caffeine": 75
+	  },
+	  "badem-latte": {
+		"name": "Latte au lait d’amande",
+		"desc": "Latte léger au lait d’amande.",
+		"ingredients": ["Espresso", "Lait d’amande"],
+		"caffeine": 75
+	  },
+	  "toffee-nut": {
+		"name": "Latte Toffee Nut",
+		"desc": "Latte aromatisé au caramel et aux noix.",
+		"ingredients": ["Espresso", "Lait", "Sirop Toffee Nut"],
+		"caffeine": 75
+	  },
+	  "lotus-latte": {
+		"name": "Latte Lotus",
+		"desc": "Latte à l’arôme du biscuit Lotus.",
+		"ingredients": ["Espresso", "Lait", "Sauce Lotus"],
+		"caffeine": 75
+	  },
+	  "speculaas-latte": {
+		"name": "Latte Speculaas",
+		"desc": "Latte au goût du biscuit épicé speculaas.",
+		"ingredients": ["Espresso", "Lait", "Sauce speculaas"],
+		"caffeine": 75
+	  },
+	  "turk-kahvesi": {
+		"name": "Café turc",
+		"desc": "Café turc traditionnel, riche et mousseux.",
+		"ingredients": ["Café turc", "Eau"],
+		"caffeine": 60
+	  },
+	  "double-turk": {
+		"name": "Café turc double",
+		"desc": "Version plus intense du café turc traditionnel.",
+		"ingredients": ["Café turc (double)", "Eau"],
+		"caffeine": 120
+	  },
+	  "dibek": {
+		"name": "Café Dibek",
+		"desc": "Café traditionnel au goût doux avec des notes boisées.",
+		"ingredients": ["Café dibek", "Eau"],
+		"caffeine": 60
+	  },
+	  "dubl-dibek": {
+		"name": "Dibek double",
+		"desc": "Version plus forte du café dibek au goût délicat.",
+		"ingredients": ["Café dibek double", "Eau"],
+		"caffeine": 120
+	  },
+	  "damla": {
+		"name": "Café à la mastic",
+		"desc": "Café turc aromatisé à la gomme mastic pour un goût doux et parfumé.",
+		"ingredients": ["Café turc", "Mastic", "Eau"],
+		"caffeine": 60
+	  },
+
+	  "kenya": {
+		"name": "Kenya",
+		"desc": "Café filtre vif aux notes fruitées et acidulées.",
+		"ingredients": ["Café moulu", "Eau"],
+		"caffeine": 120
+	  },
+	  "colombia": {
+		"name": "Colombie",
+		"desc": "Café équilibré avec des notes de caramel et de noisette.",
+		"ingredients": ["Café moulu", "Eau"],
+		"caffeine": 115
+	  },
+	  "v60": {
+		"name": "V60",
+		"desc": "Café propre et clair préparé en méthode V60.",
+		"ingredients": ["Café moulu", "Eau"],
+		"caffeine": 120
+	  },
+	  "chemex": {
+		"name": "Chemex",
+		"desc": "Café doux préparé lentement, au goût délicat et légèrement sucré.",
+		"ingredients": ["Café moulu", "Eau"],
+		"caffeine": 120
+	  },
+
+	  "ice-latte": {
+		"name": "Latte glacé",
+		"desc": "Latte froid avec espresso, lait et glace.",
+		"ingredients": ["Espresso", "Lait", "Glace"],
+		"caffeine": 75
+	  },
+	  "ice-americano": {
+		"name": "Americano glacé",
+		"desc": "Americano rafraîchissant préparé avec de l’eau froide.",
+		"ingredients": ["Espresso", "Eau froide", "Glace"],
+		"caffeine": 75
+	  },
+	  "ice-caramel-latte": {
+		"name": "Latte caramel glacé",
+		"desc": "Latte glacé sucré au caramel.",
+		"ingredients": ["Espresso", "Lait", "Caramel", "Glace"],
+		"caffeine": 75
+	  },
+	  "ice-mocha": {
+		"name": "Mocha glacé",
+		"desc": "Latte glacé au chocolat.",
+		"ingredients": ["Espresso", "Lait", "Chocolat", "Glace"],
+		"caffeine": 90
+	  },
+	  "ice-white-mocha": {
+		"name": "White Mocha glacé",
+		"desc": "Mocha glacé doux au chocolat blanc.",
+		"ingredients": ["Espresso", "Lait", "Chocolat blanc", "Glace"],
+		"caffeine": 90
+	  },
+	  "ice-yulaf": {
+		"name": "Latte avoine glacé",
+		"desc": "Latte froid préparé avec du lait d’avoine.",
+		"ingredients": ["Espresso", "Lait d’avoine", "Glace"],
+		"caffeine": 75
+	  },
+	  "ice-badem": {
+		"name": "Latte amande glacé",
+		"desc": "Latte froid au lait d’amande.",
+		"ingredients": ["Espresso", "Lait d’amande", "Glace"],
+		"caffeine": 75
+	  },
+	  "frappe": {
+		"name": "Frappé",
+		"desc": "Café frappé classique et rafraîchissant.",
+		"ingredients": ["Café instantané", "Lait", "Sucre", "Glace"],
+		"caffeine": 60
+	  },
+	  "frappe-cikolata": {
+		"name": "Frappé chocolat",
+		"desc": "Frappé glacé au goût de chocolat.",
+		"ingredients": ["Café instantané", "Lait", "Chocolat", "Glace"],
+		"caffeine": 60
+	  },
+	  "frappe-cilek": {
+		"name": "Frappé fraise",
+		"desc": "Frappé glacé aromatisé à la fraise.",
+		"ingredients": ["Café instantané", "Lait", "Sirop de fraise", "Glace"],
+		"caffeine": 60
+	  },
+	  "frappe-caramel": {
+		"name": "Frappé caramel",
+		"desc": "Frappé glacé au caramel.",
+		"ingredients": ["Café instantané", "Lait", "Caramel", "Glace"],
+		"caffeine": 60
+	  },
+	  "ice-chai": {
+		"name": "Chai Latte glacé",
+		"desc": "Chai latte froid mélangé au lait et à la glace.",
+		"ingredients": ["Mélange chai", "Lait", "Glace"],
+		"caffeine": 50
+	  },
+	  "ice-toffee-nut": {
+		"name": "Latte Toffee Nut glacé",
+		"desc": "Latte glacé au caramel et aux noix.",
+		"ingredients": ["Espresso", "Lait", "Sirop Toffee Nut", "Glace"],
+		"caffeine": 75
+	  },
+	  "ice-lotus": {
+		"name": "Latte Lotus glacé",
+		"desc": "Latte froid à l’arôme du biscuit Lotus.",
+		"ingredients": ["Espresso", "Lait", "Sauce Lotus", "Glace"],
+		"caffeine": 75
+	  },
+	  "ice-speculaas": {
+		"name": "Latte Speculaas glacé",
+		"desc": "Latte glacé au goût du biscuit spéculaus épicé.",
+		"ingredients": ["Espresso", "Lait", "Sauce speculaas", "Glace"],
+		"caffeine": 75
+	  },
+	  "extra-shot": {
+		"name": "Shot d’espresso supplémentaire",
+		"desc": "Ajoutez un shot supplémentaire pour un goût plus intense.",
+		"ingredients": ["Espresso"]
+	  },
+	  "extra-cikolata": {
+		"name": "Supplément chocolat",
+		"desc": "Une touche sucrée de chocolat.",
+		"ingredients": ["Sauce chocolat"]
+	  },
+	  "extra-milk": {
+		"name": "Supplément lait",
+		"desc": "Ajout de lait supplémentaire.",
+		"ingredients": ["Lait"]
+	  },
+
+	  "magnolia": {
+		"name": "Magnolia",
+		"desc": "Dessert crémeux et soyeux à base de lait et de fruits ou biscuits.",
+		"ingredients": ["Lait", "Crème", "Fruits ou biscuit"]
+	  },
+	  "waffle": {
+		"name": "Gaufre",
+		"desc": "Gaufre croustillante garnie de fruits frais et de chocolat.",
+		"ingredients": ["Pâte à gaufre", "Fruits", "Sauce chocolat"]
+	  },
+	  "san-sebastian": {
+		"name": "Cheesecake San Sebastian",
+		"desc": "Cheesecake classique à la texture dense et riche.",
+		"ingredients": ["Fromage à la crème", "Œuf", "Sucre"]
+	  },
+	  "tramisu": {
+		"name": "Tiramisu",
+		"desc": "Dessert traditionnel au café et à la crème.",
+		"ingredients": ["Crème", "Biscuits cuillère", "Café"]
+	  },
+	  "pera": {
+		"name": "Pèra",
+		"desc": "Dessert au lait doux et léger à texture fondante.",
+		"ingredients": ["Lait", "Crème", "Biscuit"]
+	  },
+	  "lotus-bomba": {
+		"name": "Bomba Lotus",
+		"desc": "Dessert riche et crémeux au goût biscuit Lotus.",
+		"ingredients": ["Crème Lotus", "Crème", "Biscuit"]
+	  },
+	  "fistikli": {
+		"name": "Pistache",
+		"desc": "Dessert crémeux aromatisé à la pistache.",
+		"ingredients": ["Pistache", "Crème", "Biscuit"]
+	  },
+	  "lotus-muhallebisi": {
+		"name": "Muhallebi Lotus",
+		"desc": "Crème de lait traditionnelle mélangée à l’arôme Lotus.",
+		"ingredients": ["Lait", "Crème", "Lotus"]
+	  },
+	  "cerez": {
+		"name": "Mélange de fruits secs",
+		"desc": "Assortiment de fruits secs : noisettes, pistaches, amandes et cajou.",
+		"ingredients": ["Noisette", "Pistache", "Amande", "Noix de cajou"]
+	  },
+	  "dubai-cup": {
+		"name": "Dubai Cup",
+		"desc": "Dessert crémeux en verrine avec biscuit et arôme spécial.",
+		"ingredients": ["Crème", "Biscuit", "Arôme"]
+	  }
+	}
+}
+
+
+
+
+
+
