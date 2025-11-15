@@ -1,0 +1,569 @@
+{
+  "description": "Description",
+  "ingredients": "Ingredients",
+  "caffeine": "Caffeine",
+  "hot": "HOT DRINKS",
+  "herbal": "HERBAL TEAS",
+  "cocktails": "COCKTAILS",
+  "cold": "COLD DRINKS",
+  "nargile": "HOOKAH",
+  "coffees": "COFFEE",
+  "filter": "FILTER COFFEE",
+  "iced": "ICED COFFEE",
+  "extras": "EXTRAS",
+  "desserts": "DESSERTS",
+
+
+  "menu": {
+	  "cay": {
+		"name": "Tea",
+		"desc": "Traditional freshly brewed Turkish black tea.",
+		"ingredients": ["Black tea", "Water"]
+	  },
+	  "fincan-cay": {
+		"name": "Cup Tea",
+		"desc": "Freshly brewed Turkish tea served in a porcelain cup.",
+		"ingredients": ["Black tea", "Water"]
+	  },
+	  "takeaway-cay": {
+		"name": "Take Away Tea",
+		"desc": "Hot and practical Turkish tea served in a takeaway cup.",
+		"ingredients": ["Black tea", "Water"]
+	  },
+	  "salep": {
+		"name": "Salep",
+		"desc": "Traditional winter drink made with milk and cinnamon.",
+		"ingredients": ["Salep", "Milk", "Cinnamon", "Sugar"]
+	  },
+	  "sicak-cikolata": {
+		"name": "Hot Chocolate",
+		"desc": "Warm and rich hot chocolate with deep cocoa flavor.",
+		"ingredients": ["Cocoa", "Milk", "Sugar"]
+	  },
+	  "beyaz-sicak-cikolata": {
+		"name": "White Hot Chocolate",
+		"desc": "Creamy white chocolate drink with a smooth texture.",
+		"ingredients": ["White chocolate", "Milk"]
+	  },
+	  "chai-latte": {
+		"name": "Chai Latte",
+		"desc": "Milk tea enriched with warm chai spices.",
+		"ingredients": ["Chai spices", "Tea", "Milk"]
+	  },
+	  "balli-sut": {
+		"name": "Honey Milk",
+		"desc": "Warm milk lightly sweetened with natural honey.",
+		"ingredients": ["Milk", "Honey"]
+	  },
+
+	  "herbal-0": {
+		"name": "Linden Tea",
+		"desc": "Light and soothing linden brewed in a French press.",
+		"ingredients": ["Linden"]
+	  },
+	  "herbal-1": {
+		"name": "Winter Tea",
+		"desc": "Warm herbal blend with ginger, clove and spices.",
+		"ingredients": ["Winter tea blend"]
+	  },
+	  "herbal-2": {
+		"name": "Green Tea",
+		"desc": "Fresh and delicate aromatic green tea.",
+		"ingredients": ["Green tea"]
+	  },
+	  "herbal-3": {
+		"name": "Sage Tea",
+		"desc": "Calming herbal tea with soft sage aroma.",
+		"ingredients": ["Sage"]
+	  },
+	  "herbal-4": {
+		"name": "Chamomile Tea",
+		"desc": "Naturally soothing chamomile infusion.",
+		"ingredients": ["Chamomile"]
+	  },
+	  "herbal-5": {
+		"name": "Mint Lemon Tea",
+		"desc": "Refreshing herbal tea with fresh mint and lemon.",
+		"ingredients": ["Mint", "Lemon"]
+	  },
+
+	  "mojito": {
+		"name": "Mojito",
+		"desc": "Refreshing Caribbean-style drink with lime and mint.",
+		"ingredients": ["Lime", "Mint", "Brown sugar", "Soda", "Ice"]
+	  },
+	  "red-mojito": {
+		"name": "Strawberry Mojito",
+		"desc": "Sweet and refreshing mojito enriched with strawberry.",
+		"ingredients": ["Strawberry puree", "Lime", "Mint", "Soda", "Ice"]
+	  },
+	  "appele-mojito": {
+		"name": "Apple Mojito",
+		"desc": "Sweet–tart mojito variation with green apple flavor.",
+		"ingredients": ["Green apple syrup", "Lime", "Mint", "Soda", "Ice"]
+	  },
+	  "x-beach": {
+		"name": "X Beach",
+		"desc": "Cool summer cocktail with exotic fruit notes.",
+		"ingredients": ["Peach syrup", "Blueberry", "Lime", "Soda", "Ice"]
+	  },
+	  "cool-lime": {
+		"name": "Cool Lime",
+		"desc": "Fresh and cooling lime-based summer drink.",
+		"ingredients": ["Lime", "Mint", "Sugar syrup", "Cold water", "Ice"]
+	  },
+	  "margarita": {
+		"name": "Virgin Margarita",
+		"desc": "Citrus-forward non-alcoholic margarita.",
+		"ingredients": ["Lime", "Orange juice", "Sugar syrup", "Ice"]
+	  },
+	  "hibiscus": {
+		"name": "Hibiscus Cooler",
+		"desc": "Aromatic red drink made with hibiscus infusion.",
+		"ingredients": ["Hibiscus brew", "Lime", "Sugar syrup", "Ice"]
+	  },
+
+	  "su": {
+		"name": "Water",
+		"desc": "Clean and refreshing still drinking water.",
+		"ingredients": ["Water"]
+	  },
+	  "soda": {
+		"name": "Soda",
+		"desc": "Refreshing sparkling mineral water.",
+		"ingredients": ["Soda"]
+	  },
+	  "sikma-portakal": {
+		"name": "Fresh Orange Juice",
+		"desc": "Naturally sweet freshly squeezed orange juice.",
+		"ingredients": ["Orange"]
+	  },
+	  "frozen": {
+		"name": "Frozen",
+		"desc": "Icy fruit-blended smoothie with your selected flavor.",
+		"ingredients": ["Fruit puree", "Ice"]
+	  },
+	  "italian-soda": {
+		"name": "Italian Soda",
+		"desc": "Light sparkling drink flavored with syrup.",
+		"ingredients": ["Soda", "Syrup", "Ice"]
+	  },
+	  "limonata": {
+		"name": "Homemade Lemonade",
+		"desc": "Fresh homemade lemonade with natural citrus flavor.",
+		"ingredients": ["Lemon", "Sugar", "Water", "Ice"]
+	  },
+	  "aromali-limonata": {
+		"name": "Flavored Lemonade",
+		"desc": "Lemonade with strawberry, pomegranate, mint or mango flavor.",
+		"ingredients": ["Lemon", "Flavoring", "Sugar", "Water", "Ice"]
+	  },
+	  "churchill": {
+		"name": "Churchill",
+		"desc": "Refreshing drink with soda, lemon and a hint of salt.",
+		"ingredients": ["Soda", "Lemon", "Salt", "Ice"]
+	  },
+	  "enerji-icecek": {
+		"name": "Energy Drink",
+		"desc": "Sweet sparkling caffeinated drink.",
+		"ingredients": ["Energy drink"]
+	  },
+	  "mesrubatlar": {
+		"name": "Soft Drinks",
+		"desc": "Assorted fizzy and cold beverages.",
+		"ingredients": ["Mixed soft drinks"]
+	  },
+	  "milkshake": {
+		"name": "Milkshake",
+		"desc": "Creamy milkshake made with your chosen flavor.",
+		"ingredients": ["Milk", "Ice cream", "Syrup"]
+	  },
+	  "meyveli-soda": {
+		"name": "Fruit Soda",
+		"desc": "Sparkling soda infused with natural fruit aroma.",
+		"ingredients": ["Soda", "Fruit flavor"]
+	  },
+
+	  "nargile-1": {
+		"name": "Mint Lime",
+		"desc": "Fresh mint and lime blend with a cool and vibrant profile.",
+		"ingredients": ["Mint", "Lime", "Menthol"]
+	  },
+	  "nargile-2": {
+		"name": "Strawberry",
+		"desc": "Sweet strawberry aroma with a smooth fruity finish.",
+		"ingredients": ["Strawberry flavor", "Fruit essence"]
+	  },
+	  "nargile-3": {
+		"name": "Watermelon",
+		"desc": "Sweet and refreshingly cool watermelon hookah flavor.",
+		"ingredients": ["Watermelon flavor", "Fruit notes"]
+	  },
+	  "nargile-4": {
+		"name": "Mango",
+		"desc": "Soft and tropical mango aroma.",
+		"ingredients": ["Mango flavor", "Tropical essence"]
+	  },
+	  "nargile-5": {
+		"name": "Grape",
+		"desc": "Classic smooth grape-flavored hookah.",
+		"ingredients": ["Red grape flavor", "Sweet notes"]
+	  },
+	  "nargile-6": {
+		"name": "Blue Mist",
+		"desc": "Sweet berry aroma blended with cooling menthol.",
+		"ingredients": ["Blueberry flavor", "Menthol", "Fruit blend"]
+	  },
+	  "nargile-7": {
+		"name": "Lemon Mint",
+		"desc": "Refreshing lemon–mint combination with citrus brightness.",
+		"ingredients": ["Lemon flavor", "Mint", "Fresh citrus"]
+	  },
+
+	  "espresso": {
+		"name": "Espresso",
+		"desc": "Strong, rich and concentrated Italian espresso.",
+		"ingredients": ["Espresso"],
+		"caffeine": 63
+	  },
+	  "double-espresso": {
+		"name": "Double Espresso",
+		"desc": "Bold double-shot espresso.",
+		"ingredients": ["Double espresso"],
+		"caffeine": 126
+	  },
+	  "espresso-macchiato": {
+		"name": "Espresso Macchiato",
+		"desc": "Espresso topped with a touch of milk foam.",
+		"ingredients": ["Espresso", "Milk foam"],
+		"caffeine": 63
+	  },
+	  "americano": {
+		"name": "Americano",
+		"desc": "Smooth long coffee made with espresso and hot water.",
+		"ingredients": ["Espresso", "Hot water"],
+		"caffeine": 75
+	  },
+	  "latte": {
+		"name": "Latate",
+		"desc": "Smooth espresso blended with steamed milk.",
+		"ingredients": ["Espresso", "Milk"],
+		"caffeine": 75
+	  },
+	  "cortado": {
+		"name": "Cortado",
+		"desc": "Rich espresso balanced with a small amount of warm milk.",
+		"ingredients": ["Espresso", "Milk"],
+		"caffeine": 75
+	  },
+	  "flat-white": {
+		"name": "Flat White",
+		"desc": "Double espresso with silky smooth milk.",
+		"ingredients": ["Double espresso", "Milk"],
+		"caffeine": 126
+	  },
+	  "cappuccino": {
+		"name": "Cappuccino",
+		"desc": "Balanced espresso with milk and thick foam.",
+		"ingredients": ["Espresso", "Milk", "Milk foam"],
+		"caffeine": 75
+	  },
+	  "mocha": {
+		"name": "Mocha",
+		"desc": "Chocolate-flavored latte with rich espresso.",
+		"ingredients": ["Espresso", "Milk", "Chocolate sauce"],
+		"caffeine": 90
+	  },
+	  "white-mocha": {
+		"name": "White Mocha",
+		"desc": "Sweet and creamy white chocolate coffee.",
+		"ingredients": ["Espresso", "Milk", "White chocolate sauce"],
+		"caffeine": 90
+	  },
+	  "caramel-macchiato": {
+		"name": "Caramel Macchiato",
+		"desc": "Milky espresso with sweet caramel.",
+		"ingredients": ["Espresso", "Milk", "Caramel sauce"],
+		"caffeine": 80
+	  },
+	  "red-eye": {
+		"name": "Red Eye",
+		"desc": "A strong mix of filter coffee topped with an espresso shot.",
+		"ingredients": ["Filter coffee", "Espresso"],
+		"caffeine": 140
+	  },
+	  "latte-macchiato": {
+		"name": "Latte Macchiato",
+		"desc": "Steamed milk layered with espresso.",
+		"ingredients": ["Espresso", "Milk", "Milk foam"],
+		"caffeine": 75
+	  },
+	  "findikli-latte": {
+		"name": "Hazelnut Latte",
+		"desc": "Smooth latte enriched with hazelnut flavor.",
+		"ingredients": ["Espresso", "Milk", "Hazelnut flavor"],
+		"caffeine": 75
+	  },
+	  "salt-caramel": {
+		"name": "Salted Caramel Latte",
+		"desc": "Sweet latte with a touch of salted caramel.",
+		"ingredients": ["Espresso", "Milk", "Salted caramel sauce"],
+		"caffeine": 75
+	  },
+	  "yulaf-latte": {
+		"name": "Oat Latte",
+		"desc": "Latte prepared with creamy oat milk.",
+		"ingredients": ["Espresso", "Oat milk"],
+		"caffeine": 75
+	  },
+	  "badem-latte": {
+		"name": "Almond Latte",
+		"desc": "Light latte made with almond milk.",
+		"ingredients": ["Espresso", "Almond milk"],
+		"caffeine": 75
+	  },
+	  "toffee-nut": {
+		"name": "Toffee Nut Latte",
+		"desc": "Caramel–hazelnut flavored latte.",
+		"ingredients": ["Espresso", "Milk", "Toffee nut syrup"],
+		"caffeine": 75
+	  },
+	  "lotus-latte": {
+		"name": "Lotus Latte",
+		"desc": "Latte with smooth Lotus biscuit flavor.",
+		"ingredients": ["Espresso", "Milk", "Lotus sauce"],
+		"caffeine": 75
+	  },
+	  "speculaas-latte": {
+		"name": "Speculaas Latte",
+		"desc": "Spiced cookie-flavored latte.",
+		"ingredients": ["Espresso", "Milk", "Speculaas sauce"],
+		"caffeine": 75
+	  },
+	  "turk-kahvesi": {
+		"name": "Turkish Coffee",
+		"desc": "Traditional rich and foamy Turkish coffee.",
+		"ingredients": ["Turkish coffee", "Water"],
+		"caffeine": 60
+	  },
+	  "double-turk": {
+		"name": "Double Turkish Coffee",
+		"desc": "Double-strong aromatic Turkish coffee.",
+		"ingredients": ["Double Turkish coffee", "Water"],
+		"caffeine": 120
+	  },
+	  "dibek": {
+		"name": "Dibek Coffee",
+		"desc": "Soft-bodied traditional Dibek coffee.",
+		"ingredients": ["Dibek coffee", "Water"],
+		"caffeine": 60
+	  },
+	  "dubl-dibek": {
+		"name": "Double Dibek Coffee",
+		"desc": "Double-strong smooth Dibek coffee.",
+		"ingredients": ["Double Dibek coffee", "Water"],
+		"caffeine": 120
+	  },
+	  "damla": {
+		"name": "Mastic Turkish Coffee",
+		"desc": "Classic Turkish coffee enriched with mastic aroma.",
+		"ingredients": ["Turkish coffee", "Mastic", "Water"],
+		"caffeine": 60
+	  },
+
+	  "kenya": {
+		"name": "Kenya",
+		"desc": "Bright filter coffee with fruity acidity.",
+		"ingredients": ["Ground coffee", "Water"],
+		"caffeine": 120
+	  },
+	  "colombia": {
+		"name": "Colombia",
+		"desc": "Balanced filter coffee with caramel and nutty hints.",
+		"ingredients": ["Ground coffee", "Water"],
+		"caffeine": 115
+	  },
+	  "v60": {
+		"name": "V60",
+		"desc": "Clean and bright profile brewed with the V60 method.",
+		"ingredients": ["Ground coffee", "Water"],
+		"caffeine": 120
+	  },
+	  "chemex": {
+		"name": "Chemex",
+		"desc": "Smooth and sweet slow-brewed Chemex coffee.",
+		"ingredients": ["Ground coffee", "Water"],
+		"caffeine": 120
+	  },
+
+	  "ice-latte": {
+		"name": "Iced Latte",
+		"desc": "Chilled latte made with espresso and cold milk.",
+		"ingredients": ["Espresso", "Milk", "Ice"],
+		"caffeine": 75
+	  },
+	  "ice-americano": {
+		"name": "Iced Americano",
+		"desc": "Refreshing espresso mixed with cold water over ice.",
+		"ingredients": ["Espresso", "Cold water", "Ice"],
+		"caffeine": 75
+	  },
+	  "ice-caramel-latte": {
+		"name": "Iced Caramel Latte",
+		"desc": "Chilled latte with smooth caramel flavor.",
+		"ingredients": ["Espresso", "Milk", "Caramel sauce", "Ice"],
+		"caffeine": 75
+	  },
+	  "ice-mocha": {
+		"name": "Iced Mocha",
+		"desc": "Cold chocolate-flavored latte.",
+		"ingredients": ["Espresso", "Milk", "Chocolate sauce", "Ice"],
+		"caffeine": 90
+	  },
+	  "ice-white-mocha": {
+		"name": "Iced White Mocha",
+		"desc": "Iced latte with creamy white chocolate.",
+		"ingredients": ["Espresso", "Milk", "White chocolate sauce", "Ice"],
+		"caffeine": 90
+	  },
+	  "ice-yulaf": {
+		"name": "Iced Oat Latte",
+		"desc": "Chilled latte made with oat milk.",
+		"ingredients": ["Espresso", "Oat milk", "Ice"],
+		"caffeine": 75
+	  },
+	  "ice-badem": {
+		"name": "Iced Almond Latte",
+		"desc": "Light and refreshing almond milk latte.",
+		"ingredients": ["Espresso", "Almond milk", "Ice"],
+		"caffeine": 75
+	  },
+	  "frappe": {
+		"name": "Frappe",
+		"desc": "Classic foamy iced frappe.",
+		"ingredients": ["Instant coffee", "Milk", "Sugar", "Ice"],
+		"caffeine": 60
+	  },
+	  "frappe-cikolata": {
+		"name": "Chocolate Frappe",
+		"desc": "Refreshing chocolate-flavored frappe.",
+		"ingredients": ["Instant coffee", "Milk", "Chocolate sauce", "Ice"],
+		"caffeine": 60
+	  },
+	  "frappe-cilek": {
+		"name": "Strawberry Frappe",
+		"desc": "Sweet and refreshing strawberry frappe.",
+		"ingredients": ["Instant coffee", "Milk", "Strawberry syrup", "Ice"],
+		"caffeine": 60
+	  },
+	  "frappe-caramel": {
+		"name": "Caramel Frappe",
+		"desc": "Icy frappe with classic caramel flavor.",
+		"ingredients": ["Instant coffee", "Milk", "Caramel sauce", "Ice"],
+		"caffeine": 60
+	  },
+	  "ice-chai": {
+		"name": "Iced Chai Latte",
+		"desc": "Cooling iced chai mixed with milk and spices.",
+		"ingredients": ["Chai mix", "Milk", "Ice"],
+		"caffeine": 50
+	  },
+	  "ice-toffee-nut": {
+		"name": "Iced Toffee Nut Latte",
+		"desc": "Cold latte with caramel–hazelnut flavor.",
+		"ingredients": ["Espresso", "Milk", "Toffee nut syrup", "Ice"],
+		"caffeine": 75
+	  },
+	  "ice-lotus": {
+		"name": "Iced Lotus Latte",
+		"desc": "Smooth iced latte with Lotus biscuit flavor.",
+		"ingredients": ["Espresso", "Milk", "Lotus sauce", "Ice"],
+		"caffeine": 75
+	  },
+	  "ice-speculaas": {
+		"name": "Iced Speculaas Latte",
+		"desc": "Chilled latte with spiced cookie flavor.",
+		"ingredients": ["Espresso", "Milk", "Speculaas sauce", "Ice"],
+		"caffeine": 75
+	  },
+
+	  "extra-shot": {
+		"name": "Extra Espresso Shot",
+		"desc": "Add a bold espresso shot.",
+		"ingredients": ["Espresso"]
+	  },
+	  "extra-cikolata": {
+		"name": "Extra Chocolate",
+		"desc": "Add sweet chocolate topping.",
+		"ingredients": ["Chocolate sauce"]
+	  },
+	  "extra-milk": {
+		"name": "Extra Milk",
+		"desc": "Add additional milk.",
+		"ingredients": ["Milk"]
+	  },
+
+	  "magnolia": {
+		"name": "Magnolia",
+		"desc": "Soft creamy dessert with fruit or biscuit layers.",
+		"ingredients": ["Milk", "Cream", "Fruit or biscuit"]
+	  },
+	  "waffle": {
+		"name": "Waffle",
+		"desc": "Crispy waffle with fresh fruits and chocolate.",
+		"ingredients": ["Waffle dough", "Fruit", "Chocolate sauce"]
+	  },
+	  "san-sebastian": {
+		"name": "San Sebastian Cheesecake",
+		"desc": "Dense and creamy classic Basque-style cheesecake.",
+		"ingredients": ["Cream cheese", "Egg", "Sugar"]
+	  },
+	  "tramisu": {
+		"name": "Tiramisu",
+		"desc": "Classic tiramisu with coffee-soaked biscuit and cream.",
+		"ingredients": ["Cream", "Ladyfinger biscuit", "Coffee"]
+	  },
+	  "pera": {
+		"name": "Pera Dessert",
+		"desc": "Soft milk-based dessert with light texture.",
+		"ingredients": ["Milk", "Cream", "Biscuit"]
+	  },
+	  "lotus-bomba": {
+		"name": "Lotus Bomb",
+		"desc": "Intense creamy dessert with Lotus flavor.",
+		"ingredients": ["Lotus cream", "Cream", "Biscuit"]
+	  },
+	  "fistikli": {
+		"name": "Pistachio Dessert",
+		"desc": "Creamy dessert with pistachio flavor.",
+		"ingredients": ["Pistachio", "Cream", "Biscuit"]
+	  },
+	  "lotus-muhallebisi": {
+		"name": "Lotus Pudding",
+		"desc": "Creamy milk pudding combined with Lotus flavor.",
+		"ingredients": ["Milk", "Cream", "Lotus"]
+	  },
+	  "cerez": {
+		"name": "Mixed Nuts",
+		"desc": "Assorted mixed nuts.",
+		"ingredients": ["Hazelnut", "Peanut", "Almond", "Cashew"]
+	  },
+	  "dubai-cup": {
+		"name": "Dubai Cup",
+		"desc": "Creamy cup dessert with biscuit and flavoring.",
+		"ingredients": ["Cream", "Biscuit", "Flavoring"]
+	  }
+	}
+
+  
+}
+
+
+
+
+
+
+
+
+
+
