@@ -185,41 +185,9 @@
 	  },
 
 	  "nargile-1": {
-		"name": "Mint Lime",
-		"desc": "Fresh mint and lime blend with a cool and vibrant profile.",
-		"ingredients": ["Mint", "Lime", "Menthol"]
+		"name": "Hookah",
+		"ingredients": ["Mint Lime, Menthol, Strawberry, Mango, Watermelon, Grape, Blueberry"]
 	  },
-	  "nargile-2": {
-		"name": "Strawberry",
-		"desc": "Sweet strawberry aroma with a smooth fruity finish.",
-		"ingredients": ["Strawberry flavor", "Fruit essence"]
-	  },
-	  "nargile-3": {
-		"name": "Watermelon",
-		"desc": "Sweet and refreshingly cool watermelon hookah flavor.",
-		"ingredients": ["Watermelon flavor", "Fruit notes"]
-	  },
-	  "nargile-4": {
-		"name": "Mango",
-		"desc": "Soft and tropical mango aroma.",
-		"ingredients": ["Mango flavor", "Tropical essence"]
-	  },
-	  "nargile-5": {
-		"name": "Grape",
-		"desc": "Classic smooth grape-flavored hookah.",
-		"ingredients": ["Red grape flavor", "Sweet notes"]
-	  },
-	  "nargile-6": {
-		"name": "Blue Mist",
-		"desc": "Sweet berry aroma blended with cooling menthol.",
-		"ingredients": ["Blueberry flavor", "Menthol", "Fruit blend"]
-	  },
-	  "nargile-7": {
-		"name": "Lemon Mint",
-		"desc": "Refreshing lemon–mint combination with citrus brightness.",
-		"ingredients": ["Lemon flavor", "Mint", "Fresh citrus"]
-	  },
-
 	  "espresso": {
 		"name": "Espresso",
 		"desc": "Strong, rich and concentrated Italian espresso.",
@@ -557,6 +525,7 @@
 
   
 }
+
 
 
 
