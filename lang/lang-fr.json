@@ -184,8 +184,7 @@
 		  },
 		"nargile-1": {
 		  "name": "Chicha",
-		  "ingredients": ["Citron vert menthe, menthol, fraise, mangue, pastèque, raisin, myrtille"]}
-
+		  "ingredients": ["Citron vert menthe, menthol, fraise, mangue, pastèque, raisin, myrtille"]
 		  },
 		  "espresso": {
 			"name": "Espresso",
@@ -521,6 +520,7 @@
 		  }
 		}
 	}
+
 
 
 
