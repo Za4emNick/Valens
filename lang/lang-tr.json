@@ -187,8 +187,7 @@
 
 		"nargile-1": {
 		  "name": "Nargile",
-		  "ingredients": ["Nane-limon, mentol, çilek, mango, karpuz, üzüm, yaban mersini"]}
-
+		  "ingredients": ["Nane-limon, mentol, çilek, mango, karpuz, üzüm, yaban mersini"]
 	  },
 	  "espresso": {
 		"name": "Espresso",
@@ -527,4 +526,5 @@
 
   
 }
+
 
