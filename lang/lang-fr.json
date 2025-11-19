@@ -182,42 +182,11 @@
 			"desc": "Eau gazeuse aromatisée aux fruits naturels.",
 			"ingredients": ["Soda", "Arôme de fruits"]
 		  },
-		  "nargile-1": {
-			"name": "Menthe Citron vert",
-			"desc": "Mélange rafraîchissant de menthe et de citron vert au goût vivifiant.",
-			"ingredients": ["Menthe", "Citron vert", "Menthol"]
-		  },
-		  "nargile-2": {
-			"name": "Fraise",
-			"desc": "Saveur sucrée de fraise avec une touche fruitée délicate.",
-			"ingredients": ["Arôme de fraise", "Essence de fruits"]
-		  },
-		  "nargile-3": {
-			"name": "Pastèque",
-			"desc": "Saveur de pastèque douce et rafraîchissante.",
-			"ingredients": ["Arôme de pastèque", "Notes fruitées"]
-		  },
-		  "nargile-4": {
-			"name": "Mangue",
-			"desc": "Arôme tropical de mangue au goût doux et riche.",
-			"ingredients": ["Arôme de mangue", "Essence tropicale"]
-		  },
-		  "nargile-5": {
-			"name": "Raisin",
-			"desc": "Goût classique du raisin, doux et agréable.",
-			"ingredients": ["Arôme de raisin", "Notes sucrées"]
-		  },
-		  "nargile-6": {
-			"name": "Blue Mist",
-			"desc": "Mélange de baies avec une note mentholée rafraîchissante.",
-			"ingredients": ["Arôme de myrtille", "Menthol", "Mélange de fruits"]
-		  },
-		  "nargile-7": {
-			"name": "Citron Menthe",
-			"desc": "Association vivifiante de citron et de menthe avec une légère acidité.",
-			"ingredients": ["Arôme citron", "Menthe", "Agrumes"]
-		  },
+		"nargile-1": {
+		  "name": "Chicha",
+		  "ingredients": ["Citron vert menthe, menthol, fraise, mangue, pastèque, raisin, myrtille"]}
 
+		  },
 		  "espresso": {
 			"name": "Espresso",
 			"desc": "Espresso classique, intense et riche en arôme.",
@@ -552,6 +521,7 @@
 		  }
 		}
 	}
+
 
 
 
