@@ -185,42 +185,11 @@
 		"ingredients": ["Soda", "Meyve aroması"]
 	  },
 
-	  "nargile-1": {
-		"name": "Nane Lime",
-		"desc": "Taze nane ve lime dokunuşuyla ferah bir aroma.",
-		"ingredients": ["Nane", "Lime", "Mentol"]
-	  },
-	  "nargile-2": {
-		"name": "Çilek",
-		"desc": "Tatlı çilek aromasıyla meyvemsi hafif içim.",
-		"ingredients": ["Çilek aroması", "Meyve özü"]
-	  },
-	  "nargile-3": {
-		"name": "Karpuz",
-		"desc": "Tatlı ve serinletici karpuz aromalı nargile.",
-		"ingredients": ["Karpuz aroması", "Meyve notaları"]
-	  },
-	  "nargile-4": {
-		"name": "Mango",
-		"desc": "Egzotik mango tatlılığıyla tropikal yumuşak içim.",
-		"ingredients": ["Mango aroması", "Tropikal esans"]
-	  },
-	  "nargile-5": {
-		"name": "Üzüm",
-		"desc": "Klasik ve pürüzsüz üzüm aromalı nargile.",
-		"ingredients": ["Üzüm aroması", "Tatlı notalar"]
-	  },
-	  "nargile-6": {
-		"name": "Blue Mist",
-		"desc": "Meyvemsi tatlar ve serin mentol uyumu.",
-		"ingredients": ["Blueberry aroması", "Mentol", "Meyve karışımı"]
-	  },
-	  "nargile-7": {
-		"name": "Limon Nane",
-		"desc": "Ferah limon–nane uyumuyla hafif ekşi ve canlı aroma.",
-		"ingredients": ["Limon aroması", "Nane", "Fresh citrus"]
-	  },
+		"nargile-1": {
+		  "name": "Nargile",
+		  "ingredients": ["Nane-limon, mentol, çilek, mango, karpuz, üzüm, yaban mersini"]}
 
+	  },
 	  "espresso": {
 		"name": "Espresso",
 		"desc": "Kısa sürede hazırlanan yoğun aromalı klasik espresso.",
@@ -558,3 +527,4 @@
 
   
 }
+
